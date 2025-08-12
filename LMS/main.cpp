@@ -1,20 +1,45 @@
 #include <iostream>
-#include "Book.h"
-#include "Category.h"
+#include "Account.h"
 
 int main() {
-    // Tạo thể loại
-    Category cat1("C001", "Science Fiction");
-    Category cat2("C002", "Programming");
+    std::string filename = "./data/accounts.txt";
+    std::vector<Account> accounts = Account::loadFromFile(filename);
+    Account* currentUser = nullptr;
 
-    // Tạo sách (thêm tên nhà xuất bản)
-    Book book1("978-0-123456-47-2", "Dune", "Frank Herbert", "Chilton Books", cat1, 1965, true);
-    Book book2("978-0-987654-32-1", "Effective C++", "Scott Meyers", "Addison-Wesley", cat2, 2005, false);
+    while (true) {
+        if (!currentUser) {
+            std::cout << "\n1. Dang nhap\n2. Dang ky\n3. Thoat\nChon: ";
+            int choice; std::cin >> choice;
 
-    std::cout << "\n=== BOOK LIST ===\n";
-    book1.display();
-    std::cout << "\n";
-    book2.display();
+            if (choice == 1) {
+                std::string user, pass;
+                std::cout << "Username: "; std::cin >> user;
+                std::cout << "Password: "; std::cin >> pass;
+                currentUser = Account::login(accounts, user, pass);
+                if (currentUser) {
+                    std::cout << "Dang nhap thanh cong tai khoan: "
+                              << (currentUser->getRole() == Role::LIBRARIAN ? "Librarian" : "Member");
+                              
+                } else {
+                    std::cout << "Sai thong tin dang nhap!\n";
+                }
+            }
+            else if (choice == 2) {
+                std::string user, pass;
+                std::cout << "Username: "; std::cin >> user;
+                std::cout << "Password: "; std::cin >> pass;
 
+                size_t oldSize = accounts.size(); // lưu lại số lượng cũ
+                Account::registerAccountAuto(accounts, user, pass);
+                
+                // Chỉ lưu file nếu thực sự có thêm tài khoản
+                if (accounts.size() > oldSize) {
+                    Account::saveToFile(filename, accounts);
+                }
+            }
+            else break;
+        }
+        
+    }
     return 0;
 }
