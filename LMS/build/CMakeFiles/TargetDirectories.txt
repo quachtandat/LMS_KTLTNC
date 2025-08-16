@@ -1,0 +1,3 @@
+D:/thuvien/build/CMakeFiles/THUVIEN.dir
+D:/thuvien/build/CMakeFiles/edit_cache.dir
+D:/thuvien/build/CMakeFiles/rebuild_cache.dir

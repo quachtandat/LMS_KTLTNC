@@ -1,2 +1,1 @@
-L002|QUACH TAN DAT|quachbao18@gmail.com|0785903554
-L001|NGUYEN VIEN|VIEN@gmail.com|0912345678
+admin|admin123|Administrator|admin@library.com|0|EMP001|IT
