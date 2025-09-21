@@ -1,0 +1,174 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="UseCase" id="LMS_UseCase">
+    <mxGraphModel dx="1429" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="reader_login" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-1" target="login" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="230.21346698168475" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reader_logout" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-1" target="logout" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="234.22820141524653" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reader_search" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-1" target="searchBook" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="244" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reader_borrow" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-1" target="borrowBook" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="253.9658988337486" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reader_return" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-1" target="returnBook" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="262.23949839089016" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reader_history" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-1" target="viewHistory" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="268.5458328148443" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lib_login" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="login" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="404.12361646881766" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lib_logout" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="logout" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="418.8425192357498" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lib_search" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="searchBook" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lib_addBook" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="addBook" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="432.824114877855" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lib_removeBook" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="removeBook" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="436.3021491158331" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lib_updateBook" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="updateBook" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="439.7844379946929" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lib_manageReaders" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="manageReaders" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="443.171821584678" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lib_generateReport" style="exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="generateReport" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="446.64507108470457" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTqT2ovOGzvw4925Ow-Y-1" value="&lt;strong data-end=&quot;200&quot; data-start=&quot;190&quot;&gt;Reader&lt;/strong&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lTqT2ovOGzvw4925Ow-Y-4" value="&lt;strong data-end=&quot;217&quot; data-start=&quot;204&quot;&gt;Librarian&lt;/strong&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lTqT2ovOGzvw4925Ow-Y-5" value="Library Management System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="860" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="updateBook" value="Cập nhật sách" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="510" y="350" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="manageReaders" value="Quản lý độc giả" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="164" y="480" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="searchByTitle" value="Tìm theo tiêu đề" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="510" y="100" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="searchBook" value="Tìm kiếm sách" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="440" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="extend_title" value="&lt;&lt;extend&gt;&gt;" style="dashed=1;endArrow=open;" parent="lTqT2ovOGzvw4925Ow-Y-5" source="searchByTitle" target="searchBook" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="include_update" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;" parent="lTqT2ovOGzvw4925Ow-Y-5" source="updateBook" target="searchBook" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="generateReport" value="Tạo báo cáo" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="164" y="570" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="returnBook" value="Trả sách" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="160" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="logout" value="Đăng ký" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="164" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="searchByAuthor" value="Tìm theo tác giả" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="690" y="210" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="extend_author" value="&lt;&lt;extend&gt;&gt;" style="dashed=1;endArrow=open;" parent="lTqT2ovOGzvw4925Ow-Y-5" source="searchByAuthor" target="searchBook" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="login" value="Đăng nhập" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="160" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="addBook" value="Thêm sách" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="390" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="include_add" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;" parent="lTqT2ovOGzvw4925Ow-Y-5" source="addBook" target="searchBook" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="borrowBook" value="Mượn sách" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="160" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="include_borrow" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;" parent="lTqT2ovOGzvw4925Ow-Y-5" source="borrowBook" target="searchBook" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="viewHistory" value="Xem lịch sử mượn trả" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="150" y="200" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="removeBook" value="Xóa sách" style="ellipse" parent="lTqT2ovOGzvw4925Ow-Y-5" vertex="1">
+          <mxGeometry x="400" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="include_remove" value="&lt;&lt;include&gt;&gt;" style="dashed=1;endArrow=open;" parent="lTqT2ovOGzvw4925Ow-Y-5" source="removeBook" target="searchBook" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lTqT2ovOGzvw4925Ow-Y-9" value="Đăng xuất" style="ellipse" vertex="1" parent="lTqT2ovOGzvw4925Ow-Y-5">
+          <mxGeometry x="330" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lTqT2ovOGzvw4925Ow-Y-13" value="&lt;&lt;extend&gt;&gt;" style="dashed=1;endArrow=open;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="lTqT2ovOGzvw4925Ow-Y-5" source="logout" target="login">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="425" as="sourcePoint" />
+            <mxPoint x="280" y="463" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTqT2ovOGzvw4925Ow-Y-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="viewHistory">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTqT2ovOGzvw4925Ow-Y-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lTqT2ovOGzvw4925Ow-Y-4" target="lTqT2ovOGzvw4925Ow-Y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="390" as="sourcePoint" />
+            <mxPoint x="130" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTqT2ovOGzvw4925Ow-Y-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lTqT2ovOGzvw4925Ow-Y-1" target="lTqT2ovOGzvw4925Ow-Y-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="370" as="sourcePoint" />
+            <mxPoint x="130" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
